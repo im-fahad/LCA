@@ -64,19 +64,125 @@
 		</div>
 	</header>
 	
+	<section class="lca-about">
+		<div class="lca-container">
+			<div class="lca-about__inner">
+				<div class="lca-about__banner">
+					<img src="/assets/images/1.webp" class="lca-about__banner-img" alt="Banner">
+				</div>
+				
+				<div class="lca-about__content">
+					<h1 class="lca-about__title">
+						About Legal Claim Assistant
+					</h1>
+					<p class="lca-about__desc">
+						Legal Claim Assistant, spanning the Netherlands and the USA. Is a team deeply specialized in
+						providing high quality retained cases for all of our legal clients. Our proficiency shines
+						in mass torts and class actions, where we ensure law firms receive only the most relevant,
+						high-intent leads. Simultaneously, we assist publishers in effectively monetizing their
+						legal content. Our expertise lies not just in lead generation but in refining this process
+						to maximize ROI for law firms and boost revenue for publishers. Our international presence
+						enriches our understanding of diverse legal markets, enhancing our service to clients across
+						these regions.
+					</p>
+					
+					<a href="/" class="lca-about__link">
+						Schedule a 30 minute introduction call
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="lca-impact">
+		<img src="/assets/images/circle.svg" class="lca-impact__bg-img" alt="Circle">
+		<div class="lca-impact__content" style="background-image: url('/assets/images/bg-3.png')">
+			<div class="lca-container">
+				<div class="lca-impact__inner">
+					<h1 class="lca-impact__title">
+						Our Impact in Numbers:
+					</h1>
+					
+					<div class="lca-impacts">
+						<div class="lca-impacts__item">
+							<h1 class="lca-impacts__item-value">10M</h1>
+							<h2 class="lca-impacts__item-title">TOTAL SALES</h2>
+						</div>
+						<div class="lca-impacts__item">
+							<h1 class="lca-impacts__item-value">2M</h1>
+							<h2 class="lca-impacts__item-title">MONTHLY VISITS</h2>
+						</div>
+						<div class="lca-impacts__item">
+							<h1 class="lca-impacts__item-value">50k+</h1>
+							<h2 class="lca-impacts__item-title">MONTHLY LEADS</h2>
+						</div>
+						<div class="lca-impacts__item">
+							<h1 class="lca-impacts__item-value">15k+</h1>
+							<h2 class="lca-impacts__item-title">MONTHLY CALLS</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="lca-strategic">
+		<div class="lca-container">
+			<div class="lca-strategic__inner">
+				<h1 class="lca-strategic__title">
+					Strategic Case Selection Process
+				
+				</h1>
+				<p class="lca-strategic__desc">
+					We identify the most promising mass tort opportunities in areas like Camp Lejeune, Roundup,
+					Firefighter Foam, Talcum Powder, Paraquat, Motor Vehicle Accidents, and Hair Relaxer. We focus on
+					cases with high potential for success, ensuring optimal outcomes for both our lead buyers and
+					clients.
+				</p>
+				
+				<div class="lca-strategic__main">
+					<div class="lca-strategic__banner">
+						<img src="/assets/images/camp-lejeune-lca-1-1.webp" class="lca-strategic__banner-img" alt="Banner">
+					</div>
+					
+					<div class="lca-strategic__content">
+						<h1 class="lca-strategic__title">
+							Seek Justice for
+							Camp Lejeune Victims
+						</h1>
+						<p class="lca-strategic__desc">
+							Fighting for Camp Lejeune water contamination victims, our skilled attorneys aim to secure the compensation you deserve.
+						</p>
+						
+						<div class="lca-strategic__user">
+							<img src="/assets/images/client.png" alt="Avatar" class="lca-strategic__user-avatar">
+							<h3 class="lca-strategic__user-text">
+								<span class="lca-strategic__user-name">Harmed at Camp Lejeune?</span>
+								Contact us for legal support and compensation.
+							</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
 	<div class="lca-wrapper">
 	
 	</div>
 </main>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 
 <script>
-	window.onscroll = function() {stickyNav()};
+	window.onscroll = function () {
+		stickyNav()
+	};
+	
 	function stickyNav() {
 		let header = document.getElementById("lcaHeader");
 		window.addEventListener("scroll", () => {
-			if (window.scrollY > 100){
+			if (window.scrollY > 100) {
 				header.classList.add("sticky");
 			} else {
 				header.classList.remove("sticky");
@@ -84,8 +190,8 @@
 		});
 	}
 	
-	function toggleMenu(){
-		const menu= document.getElementById("navMenu");
+	function toggleMenu() {
+		const menu = document.getElementById("navMenu");
 		menu.classList.toggle("open")
 	}
 </script>
