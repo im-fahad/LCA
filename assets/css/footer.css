@@ -1,0 +1,142 @@
+.lca-footer {
+    width: 100%;
+}
+
+.lca-footer__inner {
+    display: flex;
+    align-items: start;
+    gap: 100px;
+    padding: 0 20px;
+}
+
+.lca-footer__left {
+    width: 100%;
+    max-width: 300px;
+}
+
+.lca-footer__right {
+    flex: 1;
+}
+
+.lca-footer__logo {
+    height: 40px;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.lca-footer__desc {
+    font-size: 14px;
+    font-weight: 300;
+    color: #8b9faf;
+}
+
+.lca-footer__desc strong {
+    font-weight: 700;
+}
+
+.lca-footer__social {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.lca-footer__social-item {
+    font-size: 28px;
+    color: #B4B6C6;
+    transition: all .3s;
+}
+
+.lca-footer__social-item:hover {
+    color: var(--link);
+}
+
+.lca-footer__menu-title {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: var(--primary);
+}
+
+.lca-footer__menu {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.lca-footer__menu-link {
+    font-size: 14px;
+    color: #445f86;
+    font-weight: 300;
+    transition: all .3s;
+}
+
+.lca-footer__menu-link:hover {
+    color: var(--title);
+    white-space: nowrap;
+}
+.lca-footer__copyright{
+    font-size: 14px;
+    color: #bec2c2;
+    font-weight: 300;
+    text-align: center;
+    padding: 0 20px;
+    margin: 60px 0;
+}
+.lca-footer__copyright a{
+    color: #bec2c2;
+}
+
+@media (max-width: 767.98px) {
+    .lca-footer__inner {
+        flex-direction: column;
+        gap: 40px;
+        padding: 0 10px;
+    }
+
+    .lca-footer__left {
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .lca-footer__social {
+        justify-content: center;
+    }
+
+    .lca-footer__right {
+        width: 100%;
+    }
+
+    .lca-footer__menu-title {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .lca-footer__menu {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .lca-footer__copyright{
+        padding: 0 10px;
+        margin: 50px 0;
+    }
+
+}
+
+@media (max-width: 575.98px) {
+    .lca-footer__inner {
+        padding: 0;
+    }
+
+    .lca-footer__copyright{
+        padding: 0;
+        margin: 40px 0;
+    }
+}
