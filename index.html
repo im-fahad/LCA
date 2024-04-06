@@ -44,7 +44,10 @@
 				<a href="/" class="lca-nav__logo">
 					<img src="./assets/images/logo.webp" class="lca-nav__logo-img" alt="Logo">
 				</a>
-				<ul class="lca-nav__menu">
+				<button class="lca-nav__toggle" onclick="toggleMenu()">
+					<span class="mdi mdi-menu"></span>
+				</button>
+				<ul class="lca-nav__menu" id="navMenu">
 					<li class="lca-nav__menu-item">
 						<a href="" class="lca-nav__menu-link">About Us</a>
 					</li>
@@ -69,12 +72,9 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 <script>
-	window.onscroll = function() {myFunction()};
-	
-	let header = document.getElementById("lcaHeader");
-	let sticky = header.offsetTop;
-	
-	function myFunction() {
+	window.onscroll = function() {stickyNav()};
+	function stickyNav() {
+		let header = document.getElementById("lcaHeader");
 		window.addEventListener("scroll", () => {
 			if (window.scrollY > 100){
 				header.classList.add("sticky");
@@ -82,6 +82,11 @@
 				header.classList.remove("sticky");
 			}
 		});
+	}
+	
+	function toggleMenu(){
+		const menu= document.getElementById("navMenu");
+		menu.classList.toggle("open")
 	}
 </script>
 </body>
