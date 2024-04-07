@@ -231,3 +231,90 @@
     color: #454545;
     max-width: 700px;
 }
+
+@media (max-width: 1399.98px) {
+    .lca-pricing-model{
+        padding: 70px 0 0 0;
+    }
+    .lca-pricing-model__card{
+        padding: 55px 18px;
+    }
+    .lca-pricing-model__card-inner{
+        gap: 18px;
+    }
+    .lca-pricing-model__title{
+        font-size: 43px;
+    }
+    .lca-pricing-model__desc{
+        font-size: 19px;
+    }
+}
+@media (max-width: 1199.98px) {
+
+    .lca-pricing-model{
+        padding: 60px 0 0 0;
+    }
+    .lca-pricing-model__card{
+        padding: 50px 16px;
+    }
+    .lca-pricing-model__card-inner{
+        gap: 16px;
+    }
+    .lca-pricing-model__title{
+        font-size: 41px;
+    }
+    .lca-pricing-model__desc{
+        font-size: 18px;
+    }
+}
+@media (max-width: 991.98px) {
+    .lca-pricing-model{
+        padding: 50px 0 0 0;
+    }
+    .lca-pricing-model__card{
+        padding: 45px 14px;
+    }
+    .lca-pricing-model__card-inner{
+        gap: 14px;
+    }
+    .lca-pricing-model__title{
+        font-size: 39px;
+    }
+    .lca-pricing-model__desc{
+        font-size: 17px;
+    }
+}
+@media (max-width: 767.98px) {
+
+    .lca-pricing-model{
+        padding: 40px 0 0 0;
+    }
+    .lca-pricing-model__card{
+        padding: 40px 12px;
+    }
+    .lca-pricing-model__card-inner{
+        gap: 12px;
+    }
+    .lca-pricing-model__title{
+        font-size: 37px;
+    }
+    .lca-pricing-model__desc{
+        font-size: 16px;
+    }
+
+    .lca-pricing-model__inner{
+        padding: 0 10px;
+    }
+}
+@media (max-width: 575.98px) {
+    .lca-pricing-model__title{
+        font-size: 35px;
+    }
+    .lca-pricing-model__desc{
+        font-size: 15px;
+    }
+
+    .lca-pricing-model__inner{
+        padding: 0;
+    }
+}
