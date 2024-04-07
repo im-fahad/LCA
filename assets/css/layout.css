@@ -29,15 +29,6 @@ h1, h2, h3, h4, h5, p {
     }
 }
 
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    animation-duration: 0.4s;
-    animation-name: fadeInDown;
-    animation-timing-function: ease-out;
-}
-
 /*style started*/
 .lca-main {
     width: 100%;
@@ -47,6 +38,16 @@ h1, h2, h3, h4, h5, p {
     width: 100%;
     transition: all 0.4s ease;
     z-index: 999;
+    position: absolute;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    animation-duration: 0.4s;
+    animation-name: fadeInDown;
+    animation-timing-function: ease-out;
 }
 
 .lca-header__top {

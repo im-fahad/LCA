@@ -13,15 +13,14 @@ const request2 = {
 };
 
 function getRequestData(data) {
-    const newData={};
-    Object.keys(data).map(function (key){
-        if (key==="first_name"){
-            newData.firstName=data.first_name;
-        }
-        else if (key==="last_name"){
-            newData.lastName=data.last_name;
+    const newData = {};
+    Object.keys(data).map(function (key) {
+        if (key === "first_name") {
+            newData.firstName = data.first_name;
+        } else if (key === "last_name") {
+            newData.lastName = data.last_name;
         } else {
-            newData[key]=data[key];
+            newData[key] = data[key];
         }
     });
     return newData;

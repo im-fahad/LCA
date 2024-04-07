@@ -1,6 +1,6 @@
 .lca-about {
     width: 100%;
-    padding: 100px 0;
+    padding: 240px 0 100px 0;
 }
 
 .lca-about__inner {
@@ -69,7 +69,7 @@
 
 @media (max-width: 1399.98px) {
     .lca-about {
-        padding: 90px 0;
+        padding: 220px 0 90px 0;
     }
 
     .lca-about__inner {
@@ -87,7 +87,7 @@
 
 @media (max-width: 1199.98px) {
     .lca-about {
-        padding: 80px 0;
+        padding: 200px 0 80px 0;
     }
 
     .lca-about__inner {
@@ -109,7 +109,7 @@
 
 @media (max-width: 991.98px) {
     .lca-about {
-        padding: 70px 0;
+        padding: 180px 0 70px 0;
     }
 
     .lca-about__inner {
@@ -132,7 +132,7 @@
 
 @media (max-width: 767.98px) {
     .lca-about {
-        padding: 60px 0;
+        padding: 100px 0 60px 0;
     }
 
     .lca-about__inner {
@@ -155,7 +155,7 @@
 
 @media (max-width: 575.98px) {
     .lca-about {
-        padding: 50px 0;
+        padding: 80px 0 50px 0;
     }
 
     .lca-about__inner {
